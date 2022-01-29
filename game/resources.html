@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<title>Copyright</title>
+<Style>
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(207, 171, 171, 0);
+    position:relative;
+    z-index: -2;
+  }
+  
+  
+  .scroll {
+    position: relative;
+    transform-origin: 100%;
+    animation: scroll 50s linear infinite;
+  }
+  
+  .scroll > .title {
+    font-size: 90%;
+    text-align: center;
+  }
+  
+  .scroll > .title h1 {
+    margin: 0 0 50px;
+    text-transform: Uppercase;
+  }
+  
+  @keyframes scroll {
+    0% {
+      top: 200px;
+    }
+    100% { 
+      top: -300px;
+    }
+  }
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.scroll img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+    font-size:50px;
+}
+.welcomefooter{
+    position:fixed;
+    bottom:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    color: #f1f1f100;
+    width:100%;
+    padding:20px;
+    text-align: center;
+}
+
+.welcomefooter .changehtmltab a:hover{
+    background: rgb(250, 243, 243);
+    color:black;
+} 
+
+.welcomefooter .changehtmltab a{
+    width:200px;
+    font-size: 30px;
+    text-transform:capitalize;
+    font-family: serif;
+    padding: 15px;
+    border:none;
+    top:50%;
+    left:50%;
+    background: rgba(97, 98, 99, 0.096);
+    color:rgb(10, 9, 9);
+    cursor:pointer;
+    display:inline-block;
+}
+
+.welcomefooter .changehtmltab {
+    padding:0%;
+    color:inherit;
+}
+</style>
+
+    <div class="scroll">
+      <div class="title">
+        <h1>Copyright</h1>
+      </div>
+        <!-- Pixabay -->
+          <p><a href="https://pixabay.com/videos/clouds-cloudscape-sky-air-1154/">Cloud Background video</a></p>
+        <!-- PLay button -->
+          <p><a href="https://blog.avada.io/css/play-pause-buttons/">Play button animation</a></p>
+          <p><a href="https://paulund.co.uk/css-animation-link-underline ">Underline animation</a></p>
+        <div class="welcomefooter">
+            <button class="changehtmltab"><a href="homepage.html">Main</a></button>
+            <button class="changehtmltab"><a href="">©Copyight</a></button>
+        </div>

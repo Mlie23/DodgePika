@@ -1,0 +1,1 @@
+"This folder contain css assets for the game"

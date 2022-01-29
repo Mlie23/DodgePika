@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>block jump</title>
+        <style>
+*{
+margin:0;
+padding:0;
+min-width:100%;
+min-height: 100%;
+/* box-sizing: border; */
+border:0;
+background-color: rgba(0, 0, 0, 0);
+position:absolute;
+}
+
+canvas {
+display:block;
+}
+#myVideo {
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+padding:0;
+margin:0;
+border:0;
+left:0;
+}
+.playbutton{
+    border:none;
+    padding:20px;
+    color: rgb(2, 0, 0);
+    display: inline-block;
+    font-size: 25px;
+}
+    </style>
+    </head>
+
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="img/cartoonroad.mp4" type="video/mp4">
+          </video>
+        
+        <canvas id = "game" width="90%" height="90%"></canvas>
+        <script src="js/play.js"></script>
+    </body>
+</html>
