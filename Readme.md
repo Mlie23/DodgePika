@@ -29,4 +29,35 @@ The goal of this third group project is to finish your side-scrolling JavaScript
 ![ControllerDesign](https://user-images.githubusercontent.com/72538674/157141127-869980c9-0316-4c21-bf7e-070d8381d9ef.png)
 
 ## Game Design: 
-[Design.md](https://github.com/Mlie23/FPS-Game-JavaScript---DodgeThePika/files/8201689/Design.md)
+| Player : Simulates the protagonist in the game  |     
+|---|
+| x : integer (stores the x coordinates of the player)  |
+| y : integer (stores the y coordinates of the player)  |
+| w : integer (stores the width of the player)  |
+| h : integer (stores the height of the player)  |
+| c :  string  (determines how the object the view of the object in canvas  |
+| xVelocity : integer ( speed of the object in x-plane)  |
+| dy : integers ( change in the y coordinates wrt to time)  |
+| jumpForce : integer ( momentum the player uses to jump ) |
+| originalHeight : integer ( initial height when game begins used to determine when the player ducks or jumps.   |
+| grounded : boolean (determines when the player is on the ground) |
+| jumpTimer : integer ( determines how long the player jumps for )  |
+| life : integer (the number of life the player has decreased when hits obstacles )  |
+| Animate: anonymous function (Simulates real-time movements of the player in response to key pressing and and game logic) |       
+| Jump: anonymous function ( on user input makes invokes the jump equations for the player and sends data to animate to simulate jumping )  |    
+| Shot : anonymous function ( Performs the shooting simulation)  |
+| Draw : anonymous function (Draws the real time simulation unto the canvas ) |
+|   |
+
+
+| Draw : anonymous function ( draws the bullet object unto the canvas)  |
+|   |
+
+| Text : Simulates the text update unto the screen |
+|---|
+| t : string (text to display unto screen)  |
+| x : integer (x coordinates of text) |
+| y : integer (y coordinate of text) |
+| a : string (position of the text) |
+| c : color (color of the text) |
+| s : size ( size of text) |
