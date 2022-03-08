@@ -24,3 +24,6 @@ The goal of this third group project is to finish your side-scrolling JavaScript
 4. Enemies need to be diversivy (not just Pikachu)
 5. Add more level
 6. Make it a multiplayer game
+
+## Controller Design:
+![ControllerDesign](https://user-images.githubusercontent.com/72538674/157141127-869980c9-0316-4c21-bf7e-070d8381d9ef.png)
