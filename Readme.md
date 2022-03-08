@@ -27,3 +27,6 @@ The goal of this third group project is to finish your side-scrolling JavaScript
 
 ## Controller Design:
 ![ControllerDesign](https://user-images.githubusercontent.com/72538674/157141127-869980c9-0316-4c21-bf7e-070d8381d9ef.png)
+
+## Game Design: 
+[Design.md](https://github.com/Mlie23/FPS-Game-JavaScript---DodgeThePika/files/8201689/Design.md)
