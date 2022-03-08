@@ -50,9 +50,6 @@ The goal of this third group project is to finish your side-scrolling JavaScript
 |   |
 
 
-| Draw : anonymous function ( draws the bullet object unto the canvas)  |
-|   |
-
 | Text : Simulates the text update unto the screen |
 |---|
 | t : string (text to display unto screen)  |
