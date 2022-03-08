@@ -7,10 +7,10 @@ The goal of this third group project is to finish your side-scrolling JavaScript
 # Goals:
 
 ## Business Perspective:
-*Visual Design: Make a game that will attract your intended audience to your website.
-*User Interface Design: Make a game that lets users easily discover how to operate it.
-*Business Considerations: If you wanted to collect revenue from your game by advertising on this website, how would design it so advertizing does not distract from the game, but, still allows customers to see it.
-*Technical Implementation and Design: Make a game that's easy to understand how it work and easy for future developers to maintain.
+* Visual Design: Make a game that will attract your intended audience to your website.
+* User Interface Design: Make a game that lets users easily discover how to operate it.
+* Business Considerations: If you wanted to collect revenue from your game by advertising on this website, how would design it so advertizing does not distract from the game, but, still allows customers to see it.
+* Technical Implementation and Design: Make a game that's easy to understand how it work and easy for future developers to maintain.
 
 ## Objective Perspective:
 *Implement Javascript and object oriented knowledge into the website
